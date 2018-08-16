@@ -1,3 +1,5 @@
+![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+
 # EOS 1200D Finder Support
 Taking some photos of the night sky with a reflex camera only is not easy. The finder is two dark and the livevew allow to see only the really bright stars.
 
