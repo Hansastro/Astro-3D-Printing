@@ -1,6 +1,6 @@
 
 
-# Some 3D Object to print for Astronomy
+# Some 3D Objects to print for Astronomy
 
 Now the 3D printing is become more and more popular. It is possible to create the objects we need.
 
