@@ -21,3 +21,10 @@ The print the adapter it is recomended to orient it horizontaly. Like that:
 ![printing view](./images/Canon_Polar_Adapter_cura.png)
 
 This avoid to fill the notch with some support material which is quite hard to remove.
+
+The STL files are available here:
+- [Canon_Polar_Adapter.stl](Canon_Polar_Adapter.stl) (Short version)
+- [Canon_Polar_Adapter_EQ6.stl](Canon_Polar_Adapter_EQ6.stl) (long version)
+- [ScrewHead.stl](ScrewHead.stl) (The screw cover)
+
+All was designed in Openscad. The Openscad files are available on this repository.
