@@ -12,4 +12,4 @@ All models are under Creative Common Licence (BY-NC-SA)
 
 ![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
-The STL files are accessible per link. If you want the source file make some modification, they are available in the repository. You have to clone it.
+The STL files are accessible per link. If you want the source files to make some modifications, they are available in the repository. You have just to clone it.
