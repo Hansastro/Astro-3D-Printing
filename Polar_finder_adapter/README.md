@@ -6,9 +6,9 @@ Two adapters are provided:
 - one for canon 90° finder to a ioptron skytracker polar finder.
 - one for canon 90° finder to a Skywatcher EQ6 mount polar finder
 
-The diameter is the same just the length change.
+The diameter is the same just the length changes.
 
-Those adapter are usable on other polar finder.
+Those adapters are usable on other polar finder of similar diameter.
 
 The short version (works well for Ioptron skytracker)
 ![Canon adapter short version](./images/Canon_Polar_Adapter_scad.png)
@@ -19,7 +19,7 @@ The long one (works for Skywatcher EQ6 and all mount with equivalent polar finde
 The srew to secure the adapter on the finder is a M5 in plastic. (You have to thread the hole). For a more confortable usage, a cover for the head of the screw is available:
 ![Screw head](./images/screwHead_cura.png)
 
-The print the adapter it is recomended to orient it horizontaly. Like that:
+To print the adapter it is recomended to orient it horizontaly. Like that:
 ![printing view](./images/Canon_Polar_Adapter_cura.png)
 
 This avoid to fill the notch with some support material which is quite hard to remove.
