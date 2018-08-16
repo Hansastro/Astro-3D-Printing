@@ -7,3 +7,6 @@ Two adapters are provided:
 The diameter is the same just the length change.
 
 Those adapter are usable on other polar finder.
+
+![Canon adapter short version](./images/Canon_Polar_Adapter_scad.png)
+
