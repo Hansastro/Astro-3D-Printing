@@ -12,6 +12,7 @@ supportPlateWidth = 35;
 supportPlateThick = 12;
 supportPlateOffetX = 50;
 supportPlateOffsetY = -20;
+supportPlateRotation = 2.5;
 
 ScrewDistance = 20;
 
@@ -50,17 +51,16 @@ module base()
                 translate([-42/2 + 15,-42/2,-4])
                 cube([42,42,4]);
                 
+                translate([42/2 + 15,-42/2, -4 -4])
+                cube([3,42,8]);
+                
                 // Blocking hole
                 difference()
                 {
                     translate([basePlateLength/2-20 - supportPlateThick+6,
                             -basePlateWidth/2 - 4,
                             0])
-                    cube([20 + supportPlateThick, 4, basePlateThick + 4 + 20]);
-                    
-                    translate([basePlateLength/2-10,-10,10 + basePlateThick])
-                    rotate([90,0,0])
-                    cylinder(h=20, d=4.6);
+                    cube([10, 4, 12]);
                     
                     translate([-10,-basePlateWidth/2 - 6,26])
                     rotate([0,45,0])
@@ -121,6 +121,7 @@ module support()
 {
 union()
     {
+      rotate([0, 0, supportPlateRotation])
       translate([supportPlateOffetX + supportPlateWidth/2, supportPlateOffsetY - supportPlateLength/2, 0])
       difference()
         {
@@ -147,6 +148,7 @@ union()
          {
          hull()
              {
+             rotate([0, 0, supportPlateRotation])
              translate([supportPlateOffetX + supportPlateWidth/2, supportPlateOffsetY - supportPlateLength/2, 0])
              translate([-supportPlateWidth/2 + 0.1, -supportPlateLength / 2, supportPlateThick - 6])
              cube([2.1, supportPlateLength, 6]);
@@ -165,7 +167,7 @@ union()
         }
      hull()
          {
-             translate([supportPlateOffetX - 8, supportPlateOffsetY - supportPlateLength + 20, supportPlateThick - 6])
+             translate([supportPlateOffetX - 5, supportPlateOffsetY - supportPlateLength + 24, supportPlateThick - 6])
              cylinder(h=6, d=5);
              //cube([3,10,6]);
              translate([7,verticalPlateThick/2 - 5,-verticalPlateHeight + 15])
@@ -186,8 +188,9 @@ difference()
         support();
     }
     translate([basePlateLength/2 + 9,0,verticalPlateHeight+0.1])
-    rotate([0,180,180])
-    scale([0.06, 0.06, 0.01])
+    //translate([basePlateLength/2 + 65, -37.5 ,verticalPlateHeight - 8.8])
+    rotate([0, 180, 180])
+    scale([0.08, 0.08, 0.01])
     //cube(10,10.5);
-    surface(file = "logo_small.png", center = true, invert = false);
+    surface(file = "../ressources/logo_small.png", center = true, invert = false);
 }
