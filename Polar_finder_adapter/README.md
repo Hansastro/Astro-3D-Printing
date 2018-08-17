@@ -1,5 +1,7 @@
 ![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
+# Polar finder adapter
+
 The purpose of this adapter is to mount a canon 90° finder to a polar finder. The ajustement of the mount is very easier, particularly for the people who live quite in north.
 
 Two adapters are provided:
